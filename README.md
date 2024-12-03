@@ -100,7 +100,7 @@ Fill out the form with the appropriate values and tap `Save`:
 - `Protocol Type Same As`: pick the label that matches your brand (e.g., `Ecowitt` for
   Ecowitt devices)
 - `Server IP / Hostname`: the IP address/hostname of the device running `ecowitt2mqtt`
-- `Path`: `/data/report/` (the default path used by most mobile apps)
+- `Path`: `/data/report/?` (the default path used by most mobile apps)
 - `Port`: `8080` (the default port on which `ecowitt2mqtt` is served)
 - `Upload Interval`: 16 (a reasonable short number of seconds between publishes)
 
